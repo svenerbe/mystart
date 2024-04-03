@@ -27,7 +27,7 @@ blueprint:
       default: "Your Serial Number"
       selector:
         text:
-  source_url: "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/blob/main/ecoflow_powerstream_control.yaml"
+  source_url: "https://github.com/svenerbe/mystart/blob/master/ecoflow_powerstream_control.yaml"
 trigger:
   platform: state
   entity_id: !input 'power_sensor'
